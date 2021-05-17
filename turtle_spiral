@@ -1,0 +1,13 @@
+import turtle
+t=turtle.Turtle()
+t.speed(10)
+colors = ["red", "blue", "green", "orange", "purple"]
+b = 0
+while b<300:
+  
+  for a in colors:  
+    t.color(a)
+    print(a)   
+    t.forward(b)
+    t.right(90)
+    b = b+1
